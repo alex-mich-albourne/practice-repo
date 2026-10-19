@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf /tmp/todo-proto)",
+      "Bash(mkdir -p /tmp/todo-proto)",
+      "Bash(cp -r /home/almichae/practice/todo/. /tmp/todo-proto/)",
+      "Read(//tmp/**)",
+      "Bash(rm -rf .idea configs.go todo_model.go todo_logic.go key_bindings.go)",
+      "Bash(go vet *)"
+    ]
+  }
+}
